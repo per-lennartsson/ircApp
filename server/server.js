@@ -44,8 +44,8 @@ client.addListener('error', function(message) {
 
 var mysqlConnection = mysql.createConnection({
     host     : '127.0.0.1',
-    user     : 'root',
-    password : 'per.fisk20.',
+    user     : '',
+    password : '',
     database : 'irc'
 });
 
