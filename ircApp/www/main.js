@@ -93,7 +93,7 @@ function setup(){
     console.log('Everything is ready.');
     //document.getElementById("startPage").style.display = "";
     //document.getElementById("chatPage").style.display = "none";
-    websocket = new WebSocket('ws://app.per-lennartsson.se:8142', 'echo-protocol');
+    websocket = new WebSocket('ws://127.0.0.1:8142', 'echo-protocol');
 
     websocket.onopen = function(){
         console.log('The websocket is now open.');
