@@ -1,11 +1,11 @@
 /**
 * Place your JS-code here.
 */
-var bootName = "per-mobil";
-var currentChannel = "#db-o-webb";
+var bootName = "";
+var currentChannel = "#";
 var lastY = 0;
 document.addEventListener('deviceready', function() {
-    currentChannel = "#db-o-webb";
+    currentChannel = "#";
     setup();
 
     ThreeDeeTouch.onHomeIconPressed = function(payload) {
@@ -64,15 +64,15 @@ function setup(){
 
         ThreeDeeTouch.configureQuickActions([
         {
-            title: '#nodejstest',
+            title: '#n',
             iconTemplate: 'HeartTemplate'
         },
         {
-          title: '#wip',
+          title: '#',
           iconTemplate: 'HeartTemplate'
         },
         {
-          title: '#db-o-webb',
+          title: '#',
           iconTemplate: 'HeartTemplate' // from Assets catalog
         }
         ]);
