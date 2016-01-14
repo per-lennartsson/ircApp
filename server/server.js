@@ -32,8 +32,8 @@ wsServer = new WebSocketServer({
     autoAcceptConnections: false
 });
 
-var client = new irc.Client('irc.bsnet.se', 'nodejs_boot', {
-    channels: ['#nodejstest','#wip','#db-o-webb'],
+var client = new irc.Client('irc.server-name.se', 'nodejs_boot', {
+    channels: ['#channelName'],
 });
 
 client.addListener('error', function(message) {
